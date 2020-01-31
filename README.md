@@ -1,2 +1,0 @@
-# lightDark
-Created with CodeSandbox
