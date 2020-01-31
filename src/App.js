@@ -5,6 +5,14 @@ import typography from "./theme/typography";
 import colorsDark from "./theme/Dark/colors";
 import typographyDark from "./theme/Dark/typography";
 import Button from "@material-ui/core/Button";
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+    padding: 0;
+  }
+`;
 
 const themeLight = {
   ...colorsAnyName,
@@ -60,6 +68,7 @@ export default props => {
       <MainContainer>
         <Header />
         <BaseButton onClick={handleThemeSwitch}>Click</BaseButton>
+        <GlobalStyle />
       </MainContainer>
     </ThemeProvider>
   );
