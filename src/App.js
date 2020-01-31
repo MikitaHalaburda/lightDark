@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import colorsAnyName from "./theme/colors";
 import typography from "./theme/typography";
