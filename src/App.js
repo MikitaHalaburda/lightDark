@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import colorsAnyName from "./theme/colors";
-import typography from "./theme/typography";
+import colorsAnyName from "./theme/Light/colors";
+import typography from "./theme/Light/typography";
 import colorsDark from "./theme/Dark/colors";
 import typographyDark from "./theme/Dark/typography";
 import Button from "@material-ui/core/Button";
